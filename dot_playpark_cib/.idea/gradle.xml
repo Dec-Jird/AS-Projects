@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/facebook-lib-4.16.1" />
+            <option value="$PROJECT_DIR$/facebooktest" />
+            <option value="$PROJECT_DIR$/google-pay-trivialdrive" />
+            <option value="$PROJECT_DIR$/playmobile-sdk-lib-1.1.4" />
+            <option value="$PROJECT_DIR$/playpark-merge" />
+          </set>
+        </option>
+        <option name="myModules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/facebook-lib-4.16.1" />
+            <option value="$PROJECT_DIR$/facebooktest" />
+            <option value="$PROJECT_DIR$/google-pay-trivialdrive" />
+            <option value="$PROJECT_DIR$/playmobile-sdk-lib-1.1.4" />
+            <option value="$PROJECT_DIR$/playpark-merge" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

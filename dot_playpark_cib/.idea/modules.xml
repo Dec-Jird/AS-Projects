@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/playpark-merge/app.iml" filepath="$PROJECT_DIR$/playpark-merge/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dot_playpark_cib.iml" filepath="$PROJECT_DIR$/dot_playpark_cib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/facebook-lib-4.16.1/facebook-lib.iml" filepath="$PROJECT_DIR$/facebook-lib-4.16.1/facebook-lib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/facebook-lib-4.16.1/facebook-lib-4.16.1.iml" filepath="$PROJECT_DIR$/facebook-lib-4.16.1/facebook-lib-4.16.1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/facebooktest/facebooktest.iml" filepath="$PROJECT_DIR$/facebooktest/facebooktest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/google-pay-trivialdrive/google-pay-lib.iml" filepath="$PROJECT_DIR$/google-pay-trivialdrive/google-pay-lib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/google-pay-trivialdrive/google-pay-trivialdrive.iml" filepath="$PROJECT_DIR$/google-pay-trivialdrive/google-pay-trivialdrive.iml" />
+      <module fileurl="file://$PROJECT_DIR$/playmobile-lib-1.1.4/playmobile-lib.iml" filepath="$PROJECT_DIR$/playmobile-lib-1.1.4/playmobile-lib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/playmobile-sdk-lib-1.1.4/playmobile-sdk-lib-1.1.4.iml" filepath="$PROJECT_DIR$/playmobile-sdk-lib-1.1.4/playmobile-sdk-lib-1.1.4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/playpark-merge/playpark-merge.iml" filepath="$PROJECT_DIR$/playpark-merge/playpark-merge.iml" />
+    </modules>
+  </component>
+</project>

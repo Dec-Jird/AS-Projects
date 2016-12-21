@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">FacebookTest</string>
+    <!--if your App ID is 1234567, you should use fb1234567-->
+    <string name="facebook_app_id">fb996248250435945</string>
+</resources>

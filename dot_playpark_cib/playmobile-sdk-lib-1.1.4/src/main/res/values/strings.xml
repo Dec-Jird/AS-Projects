@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">PlayMobileSDK</string>
+
+    <!-- PlayPark SDK -->
+
+    <!--<string name="app_name">PlayparkSDK</string>-->
+    <string name="pps_content_desc">Image</string>
+    <string name="pps_content_desc_close_button">Close button</string>
+
+    <string name="pps_action_mode_login">Playpark Authentication</string>
+    <string name="pps_action_mode_switch_account">Switch Account</string>
+    <string name="pps_action_mode_bind_account">Bind Account</string>
+    <string name="pps_action_mode_wallet_payment">Playpark Wallet</string>
+    <string name="pps_action_mode_payment">Refill Center</string>
+    <string name="pps_action_mode_web_top_up">Web Top-up</string>
+
+    <string name="pps_no_internet_connection_title">No internet connection</string>
+    <string name="pps_no_internet_connection_message">Please connect to the internet and try again</string>
+
+    <string name="pps_uninitialized_sdk_login">Playpark SDK for Authentication not initialized</string>
+    <string name="pps_uninitialized_sdk_wallet_payment">Playpark SDK for Wallet Payment not initialized</string>
+    <string name="pps_uninitialized_sdk_payment">Playpark SDK for Payment not initialized</string>
+    <string name="pps_no_internet_connection">No internet connection, please check your internet connection</string>
+    <string name="pps_timeout">Request timeout</string>
+    <string name="pps_user_cancelled">User cancelled</string>
+
+    <string name="pps_progress_title">Playpark</string>
+    <string name="pps_progress_message">Loading..</string>
+    <string name="pps_dialog_loading_failed_title">Failed to load</string>
+    <string name="pps_dialog_loading_failed_message">Sorry, but we had a problem to loading this screen. Please try again.</string>
+    <string name="pps_dialog_invalid_action_mode_title">Invalid action mode</string>
+    <string name="pps_dialog_invalid_action_mode_message">Please see instruction document</string>
+    <string name="pps_dialog_invalid_config_title">Invalid configuration</string>
+    <string name="pps_dialog_invalid_config_message">Please see instruction document</string>
+
+    <string name="pps_retry_button">Retry</string>
+</resources>

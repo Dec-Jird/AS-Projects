@@ -1,0 +1,37 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion "23.0.3"
+
+    defaultConfig {
+        applicationId "com.playpark.dot"
+        minSdkVersion 15
+        targetSdkVersion 23
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    testCompile 'junit:junit:4.12'
+
+    /**
+     * 这里融合所有playpark平台需要接入的sdk的资源(res)，
+     * 包含最新的facebook，google服务,以及playpark提供的最新版sdk: playmobile_v1.1.4
+     * 以便在Unity中无冲突使用
+     **/
+    compile project(':playmobile-sdk-lib-1.1.4')
+    //    compile project(':facebook-lib')
+    compile 'com.facebook.android:facebook-android-sdk:4.+'
+//    compile project(':google-pay-lib')
+    compile 'com.google.android.gms:play-services-base:9.6.1'//只需要基本服务，详见：https://developers.google.com/android/guides/setup?hl=zh-cn
+    compile 'com.android.support:appcompat-v7:23.4.0'
+}

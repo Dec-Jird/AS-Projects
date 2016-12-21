@@ -1,0 +1,43 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.praneat.playparksdk.PPSWebViewActivity"
+    tools:ignore="MergeRootFrame" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/pps_action_bar_size"
+        android:background="@color/pps_action_bar" >
+
+        <TextView
+            android:id="@+id/action_bar_title_text_view"
+            style="@style/PPS.ActionBar.TitleText"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:gravity="center"
+            android:paddingLeft="@dimen/pps_action_button_padding_rl" />
+
+        <ImageButton
+            android:id="@+id/close_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:background="@null"
+            android:contentDescription="@string/pps_content_desc_close_button"
+            android:minHeight="@dimen/pps_action_bar_size"
+            android:minWidth="@dimen/pps_action_button_min_width"
+            android:paddingLeft="@dimen/pps_action_button_padding_rl"
+            android:paddingRight="@dimen/pps_action_button_padding_rl"
+            android:src="@drawable/pps_close_button_selector" />
+    </RelativeLayout>
+
+    <WebView
+        android:id="@+id/web_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>
